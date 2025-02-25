@@ -8,7 +8,7 @@ const initialState = {
           return Array.isArray(parsed) ? parsed : [parsed];
         }
         return [];
-      })
+      })()
 };
 
 export const todoSlice = createSlice({
